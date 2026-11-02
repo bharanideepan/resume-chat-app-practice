@@ -20,7 +20,7 @@ export default function ResumeCard({ link }) {
         <div className="resume-card-sub">Resume ready. The download link is temporary.</div>
       </div>
       <div className="resume-card-actions">
-        <a className="btn btn-light btn-small" href={link.url} download={link.fileName} target="_blank" rel="noopener noreferrer">
+        <a className="btn btn-primary btn-small" href={link.url} download={link.fileName} target="_blank" rel="noopener noreferrer">
           <Icon name="download" size={14} />
           <span>Download .docx</span>
         </a>

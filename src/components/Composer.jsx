@@ -49,7 +49,7 @@ export default function Composer({ busy, onSend, onStop, seed }) {
           maxLength={20000}
         />
         {busy ? (
-          <button type="button" className="btn btn-light btn-icon" onClick={onStop} aria-label="Stop generating">
+          <button type="button" className="btn btn-solid btn-icon" onClick={onStop} aria-label="Stop generating">
             <Icon name="stop" size={16} />
           </button>
         ) : (
